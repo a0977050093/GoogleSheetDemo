@@ -13,8 +13,8 @@ async function accessSpreadsheet() {
     const client = await auth.getClient();
     const sheets = google.sheets({ version: 'v4', auth: client });
 
-    const spreadsheetId = 'your-spreadsheet-id'; // 替換為試算表 ID
-    const range = 'Sheet1!A1:B2'; // 要讀取的範圍
+    const spreadsheetId = '1p36pF9vC5jz0cHoY6AlTQRm-bvBuDuaz4xO_2UFrdiA'; // 替換為試算表 ID
+    const range = '位置狀況1!A1:ZZ100'; // 要讀取的範圍
 
     // 讀取試算表資料
     const response = await sheets.spreadsheets.values.get({
