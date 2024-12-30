@@ -1,0 +1,8 @@
+{
+  "name": "googlesheetdemo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^121.0.0"
+  }
+}
